@@ -39,7 +39,7 @@ export function chuckNorris(): void {
 }
 
 export function napolitano(): void {
-    alreadyElectedMiddleware('Se fossi Benjamin Button sarebbe una scelta longimirante...');
+    alreadyElectedMiddleware('Se fossi Benjamin Button sarebbe una scelta lungimirante...');
 }
 
 export function roccoSiffredi(): void {
