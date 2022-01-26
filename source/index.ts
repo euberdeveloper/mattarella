@@ -32,6 +32,7 @@ export function mattarella(): void {
             console.log('E vabbene, ma stavolta mi dovete date il barbiere aggratis');
             break;
     }
+    mattarellaCounts++;
 }
 
 export function chuckNorris(): void {
