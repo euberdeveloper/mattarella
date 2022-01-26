@@ -1,0 +1,29 @@
+{
+  "name": "mattarella",
+  "version": "1.0.0",
+  "description": "An npm oracle that will predict who will become the new \"Presidente della Repubblica\" in 2022",
+  "main": "dist/index.js",
+  "scripts": {
+    "transpile": "tsc -p source"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euberdeveloper/mattarella.git"
+  },
+  "keywords": [
+    "mattarella",
+    "presedente-della-repubblica",
+    "quirinale",
+    "2022"
+  ],
+  "author": "Euber Developer <euberdeveloper@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/euberdeveloper/mattarella/issues"
+  },
+  "homepage": "https://github.com/euberdeveloper/mattarella#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "typescript": "^4.5.5"
+  }
+}
