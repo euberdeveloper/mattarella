@@ -29,7 +29,7 @@ export function mattarella(): void {
             console.log(`Ti dugnu na boffa ca ppi daritinni n'autra t'avi a veniri a circari a scientifica`);
             break;
         default:
-            console.log('E vabbene, ma stavolta mi dovete date il barbiere aggratis');
+            console.log('E vabbene, ma stavolta mi dovete dare il barbiere aggratis');
             break;
     }
     mattarellaCounts++;
