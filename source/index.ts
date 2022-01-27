@@ -1,5 +1,5 @@
 let mattarellaCounts = 0;
-const mattarellaThreshold = 5;
+const mattarellaThreshold = 6;
 const alreadyElectedText = () => Math.floor(Math.random() * 2) % 2 ? 'Lunga vita al rettiliano!' : 'Lunga vita a Mattarella!';
 
 function alreadyElectedMiddleware(text: string): void {
