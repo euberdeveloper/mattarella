@@ -1,6 +1,6 @@
 {
   "name": "mattarella",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An npm oracle that will predict who will become the new \"Presidente della Repubblica\" in 2022",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
