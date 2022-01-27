@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "pretranspile": "shx rm -r dist",
+    "pretranspile": "shx rm -rf dist",
     "transpile": "tsc -p source",
     "test": "jest --coverage",
     "prepublishOnly": "npm run transpile && npm test"
