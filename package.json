@@ -1,6 +1,6 @@
 {
   "name": "mattarella",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An npm oracle that will predict who will become the new \"Presidente della Repubblica\" in 2022",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,6 +8,9 @@
     "pretranspile": "shx rm -rf dist",
     "transpile": "tsc -p source",
     "test": "jest --coverage",
+    "cover:coveralls": "cat ./coverage/lcov.info | coveralls",
+    "cover:codecov": "codecov",
+    "cover": "npm run cover:coveralls && npm run cover:codecov",
     "prepublishOnly": "npm run transpile && npm test"
   },
   "repository": {
@@ -29,6 +32,7 @@
   "devDependencies": {
     "@types/jest": "^27.4.0",
     "@types/node": "^17.0.12",
+    "coveralls": "^3.1.1",
     "jest": "^27.4.7",
     "shx": "^0.3.4",
     "ts-jest": "^27.1.3",
