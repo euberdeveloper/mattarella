@@ -43,7 +43,7 @@ describe('Unit tests', () => {
                     const rettiliano = i % 2 === 0;
                     const spy = jest.spyOn(Math, 'random').mockReturnValue(rettiliano ? 0.9 : 0.1);
                     mattarella[run.function]();
-                    expect(consoleLogSpy).toHaveBeenLastCalledWith(run.expected.replaceAll('{}', rettiliano ? 'al rettiliano' : 'a Mattarella'));
+                    expect(consoleLogSpy).toHaveBeenLastCalledWith(run.expected.replace(/\{\}/g, rettiliano ? 'al rettiliano' : 'a Mattarella'));
                     spy.mockRestore();
                 }
                 else {
