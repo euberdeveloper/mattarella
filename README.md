@@ -29,3 +29,7 @@ You should **summon** one of the characters **at least six times** to discover t
 ## Deployment
 
 The main purpose of this project was to ~~try jest with typescript and reportin its coverage stats~~ discover the new Presidente della Repubblica in 2022.
+
+## Update of 29/01/2022
+
+Today, Mattarella has become again Presidente. **The oracle worked!!!**.
